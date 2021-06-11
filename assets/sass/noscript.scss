@@ -6,27 +6,28 @@
 @import 'libs/html-grid';
 
 /*
-	Photon by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/* Loader */
 
-	body.is-preload {
-		#header {
-			.inner {
-				@include vendor('transform', 'none');
-				opacity: 1;
+	body.landing {
 
-				.actions {
-					@include vendor('transform', 'none');
-					opacity: 1;
+		&.is-preload {
+
+			// Spinner (active)
+
+				&:before {
+					display: none;
 				}
-			}
 
-			&:after {
-				opacity: 0;
-			}
+			// Overlay (active)
+
+				&:after {
+					display: none;
+				}
+
 		}
 	}
