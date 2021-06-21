@@ -1,3 +1,6 @@
+This is ComparatorCraftSMPs official website, it is a W.I.P but all the code is here and your welcome to use it for your own website. Keep in mind that this is a template (read below), but it is hosted on github pages. We will hopefully use this as our main website and with enough SEO it should help us advertise the server. 
+
+
 Landed by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
