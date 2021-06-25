@@ -2756,6 +2756,10 @@ body.landing #header {
 	text-align: center;
 	z-index: 21;
 }
+#ApplyPage {
+	background-image: url("https://media.discordapp.net/attachments/762378948566319136/857727920856760392/pic02.jpg?width=960&height=630");
+	
+}
 
 #banner:before {
 	content: '';
