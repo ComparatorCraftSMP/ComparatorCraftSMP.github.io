@@ -3216,15 +3216,19 @@ body.is-touch #banner {
 		display: inline-block;
 		width: 6.25em;
 	}
-	body.navPanel-visible #page-wrapper {
+	body.navPanel-show #page-wrapper {
 		transform: translateX(275px);
 	}
-	body.navPanel-visible #titleBar {
+	body.navPanel-show #titleBar {
 		transform: translateX(275px);
 	}
-	body.navPanel-visible #navPanel {
-		transform: translateX(0);
-	}
+	body.navPanel-show #navPanel {
+		transform: translateX(0) !important;
+		-webkit-transform: translateX(0) !important;
+		-moz-transform: translateX(0) !important;
+		-ms-transform: translateX(0) !important;
+		-o-transform: translateX(0) !important;
+}
 	/* Footer */
 	#footer {
 		padding: 3.25em 1.5em;

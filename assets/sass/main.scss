@@ -2272,7 +2272,7 @@ body.is-touch {
 	}
 
 	body {
-		&.navPanel-visible {
+		&.navPanel-show {
 			#page-wrapper {
 				@include vendor("transform", "translateX(#{_size(navPanel)})");
 			}
