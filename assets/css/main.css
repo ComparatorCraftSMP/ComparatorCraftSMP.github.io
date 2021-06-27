@@ -2756,11 +2756,11 @@ body.landing #header {
 	text-align: center;
 	z-index: 21;
 }
+
 #ApplyPage {
 	background-image: url("https://media.discordapp.net/attachments/762378948566319136/858078512829038631/2021-06-11_18.14.27.png?width=960&height=540");
 	background-attachment: fixed;
 	background-color: #272833;
-	
 	background-position: center center;
 	background-size: cover;
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3228,7 +3228,7 @@ body.is-touch #banner {
 		-moz-transform: translateX(0) !important;
 		-ms-transform: translateX(0) !important;
 		-o-transform: translateX(0) !important;
-}
+	}
 	/* Footer */
 	#footer {
 		padding: 3.25em 1.5em;
