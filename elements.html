@@ -20,33 +20,7 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header">
-			<h1 id="logo"><a href="index.html">Landed</a></h1>
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li>
-						<a href="#">Layouts</a>
-						<ul>
-							<li><a href="left-sidebar.html">Left Sidebar</a></li>
-							<li><a href="right-sidebar.html">Right Sidebar</a></li>
-							<li><a href="no-sidebar.html">No Sidebar</a></li>
-							<li>
-								<a href="#">Submenu</a>
-								<ul>
-									<li><a href="#">Option 1</a></li>
-									<li><a href="#">Option 2</a></li>
-									<li><a href="#">Option 3</a></li>
-									<li><a href="#">Option 4</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="#" class="button primary">Sign Up</a></li>
-				</ul>
-			</nav>
-		</header>
+		<header id="head"></header>
 
 		<!-- Main -->
 		<div id="main" class="wrapper style1">
@@ -84,7 +58,7 @@
 						accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 
 					<hr />
-
+					<h1>Heading Level 1</h1>
 					<h2>Heading Level 2</h2>
 					<h3>Heading Level 3</h3>
 					<h4>Heading Level 4</h4>
@@ -100,16 +74,17 @@
 						ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 
 					<h4>Preformatted</h4>
-					<pre><code>i = 0;
-
+					<pre>
+						<code>
+							i = 0;
 							while (!deck.isInOrder()) {
 							print 'Iteration ' + i;
 							deck.shuffle();
 							i++;
 							}
-
 							print 'It took ' + i + ' iterations to sort the deck.';
-						</code></pre>
+						</code>
+					</pre>
 				</section>
 
 				<!-- Lists -->
@@ -320,7 +295,7 @@
 					<ul class="actions">
 						<li><a href="#" class="button primary large">Large</a></li>
 						<li><a href="#" class="button">Default</a></li>
-						<li><a href="#" class="button small">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
 					</ul>
 					<div class="row">
 						<div class="col-6 col-12-xsmall">
@@ -474,25 +449,19 @@
 		</div>
 
 		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
+		<footer id="foot"></footer>
 
 	</div>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$('#head').load('assets/html/header.html');
+			$('#foot').load('assets/html/footer.html');
+			$.getScript('assets/js/main.js');
+		});
+	</script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
