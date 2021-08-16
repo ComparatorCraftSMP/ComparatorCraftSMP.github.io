@@ -3390,6 +3390,28 @@ body.is-touch #banner {
   .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+  .card-footer {
+    padding: .75rem 1.25rem;
+        padding-top: 0.75rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+        border-top-color: rgba(0, 0, 0, 0.125);
+        border-top-style: solid;
+        border-top-width: 1px;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: calc(-1px + 0.25rem);
+        border-bottom-left-radius: calc(-1px + 0.25rem);
+}
+
   
   /* Add some padding inside the card container */
   .cardcontainer {
