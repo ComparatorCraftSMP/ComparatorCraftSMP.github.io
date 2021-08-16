@@ -3333,6 +3333,10 @@ body.is-touch #banner {
     transform: rotateY(-180deg);
 }
 
+.flipping-card-item-wrapper:hover .flipping-card-item-side-front{
+    transform: rotateY(-180deg);
+}
+
 .flipping-card-item-wrapper:hover .flipping-card-item-side-back{
     transform: rotateY(0);
 }
@@ -3375,6 +3379,7 @@ body.is-touch #banner {
     text-align: center;
 }
 
+/* This is for normal cards that don't flip*/
 .card {
 	/* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -3390,3 +3395,28 @@ body.is-touch #banner {
   .cardcontainer {
 	padding: 2px 16px;
   }
+
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  
+  .cardfooter{
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
