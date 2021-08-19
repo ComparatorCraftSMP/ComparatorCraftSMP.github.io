@@ -3324,7 +3324,7 @@ body.is-touch #banner {
 
 
 .flipping-card-item-side-back{
-    color: #000;
+    color: rgb(255, 255, 255);
     transform: rotateY(180deg);
 }
 
@@ -3372,6 +3372,26 @@ body.is-touch #banner {
     color: #ffa41b;
     border: 1px solid #ffa41b;
 }
+
+.flip-card-text-header {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .flip-card-text-paragraph2 {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .flip-card-text-paragraph {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
 
 .copyright{
     font-size: 11px;
@@ -3446,7 +3466,8 @@ body.is-touch #banner {
 /* Centered text */
 .centered {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+  
