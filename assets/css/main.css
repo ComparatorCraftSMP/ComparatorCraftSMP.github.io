@@ -3426,8 +3426,8 @@ body.is-touch #banner {
 
 .card-footer:last-child {
     border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
         border-bottom-right-radius: calc(-1px + 0.25rem);
         border-bottom-left-radius: calc(-1px + 0.25rem);
 }
