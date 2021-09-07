@@ -243,6 +243,10 @@ pre code {
 	text-align: right;
 }
 
+.table-of-contents a {
+	font-weight: bold;
+}
+
 /* Loader */
 
 @-webkit-keyframes spinner-show {
