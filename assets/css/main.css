@@ -14,6 +14,8 @@
 	--button-active-color: #a5162e;
 	--regular-text-color: rgba(255, 255, 255, 0.75);
 	--marker-main-color: #ff6969;
+	/* Common Measurements */
+	--top-offset: 4rem;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -27,6 +29,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+section#sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: var(--top-offset);
 }
 
 body {
@@ -133,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	line-height: 1em;
 	margin: 0 0 1em;
-	scroll-margin-top: 60.66px;
+	scroll-margin-top: var(--top-offset);
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
