@@ -3279,3 +3279,78 @@ body.is-touch #banner {
 		padding: 0;
 	}
 }
+
+
+.pricing .card {
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+	margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+  }
+  
+  .pricing .card-price {
+	font-size: 3rem;
+	margin: 0;
+  }
+  
+  .pricing .card-price .period {
+	font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+	margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+	opacity: 0.7;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+	.pricing .card:hover {
+	  margin-top: -.25rem;
+	  margin-bottom: .25rem;
+	  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+	}
+  
+	.pricing .card:hover .btn {
+	  opacity: 1;
+	}
+  }
+  
+/* Tooltip container */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black; 
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #181920;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+  }
+  
+  /* for showing the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
